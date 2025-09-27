@@ -1,0 +1,19 @@
+.container {
+  margin-top: 40px;
+}
+
+.container_recommended_movies {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+}
+
+.container_all_movies {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 5px;
+}
+
+.container > section {
+  margin-bottom: 70px;
+}
