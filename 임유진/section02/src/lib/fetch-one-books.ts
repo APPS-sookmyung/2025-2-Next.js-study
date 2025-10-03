@@ -1,9 +1,9 @@
-import { MovieData } from "@/types";
+import { BookData } from "@/types";
 
-export default async function fetchOneMovie(
+export default async function fetchOneBook(
   id: number
-): Promise<MovieData | null> {
-  const url = `http://onebite-cinema-server-rouge.vercel.app/movie/${id}`;
+): Promise<BookData | null> {
+  const url = `https://onebite-books-server-five-amber.vercel.app/book/${id}`;
 
   try {
     const response = await fetch(url);
