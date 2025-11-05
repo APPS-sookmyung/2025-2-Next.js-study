@@ -1,4 +1,4 @@
-## 한입-씨네마(ONE BITE BOOKS)
+w## 한입-씨네마(ONE BITE BOOKS)
 
 한입 FE 챌린지 (Next.js 코스)에 사용되는 API 서버입니다.
 Node.js 20(or LTS) 이상의 버전이 필요합니다. (24.06.03 기준)
