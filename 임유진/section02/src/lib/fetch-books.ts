@@ -1,7 +1,7 @@
-import { MovieData } from "@/types";
+import { BookData } from "@/types";
 
-export default async function fetchMovies(q?: string): Promise<MovieData[]> {
-  let url = "http://onebite-cinema-server-rouge.vercel.app/movie";
+export default async function fetchBooks(q?: string): Promise<BookData[]> {
+  let url = "https://onebite-books-server-five-amber.vercel.app/book";
 
   if (q) {
     url += `/search?q=${q}`;

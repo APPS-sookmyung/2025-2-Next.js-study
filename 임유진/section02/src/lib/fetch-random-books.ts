@@ -1,7 +1,7 @@
-import { MovieData } from "@/types";
+import { BookData } from "@/types";
 
-export default async function fetchRandomMovies(): Promise<MovieData[]> {
-  const url = "http://onebite-cinema-server-rouge.vercel.app/movie/random";
+export default async function fetchRandomBooks(): Promise<BookData[]> {
+  const url = "http://onebite-books-server-five-amber.vercel.app/book/random";
 
   try {
     const response = await fetch(url);
