@@ -1,4 +1,3 @@
-// app/(search)/components/Searchbar.tsx
 'use client'
 
 import { useRouter, useSearchParams } from 'next/navigation'
