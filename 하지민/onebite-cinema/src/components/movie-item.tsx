@@ -1,11 +1,15 @@
-import { MovieData } from '@/types';
-import Link from 'next/link';
-import style from './movie-item.module.css';
+import { MovieData } from "@/types";
+import Link from "next/link";
+import style from "./movie-item.module.css";
 
-export default function MovieItem({ id, posterImgUrl }: MovieData) {
+export default function MovieItem(props: MovieData) {
   return (
-    <Link href={`/movie/${id}`} className={style.container}>
-      <img src={posterImgUrl} />
+    <Link className={style.container} href={`/movie/${props.id}`}>
+      <img src={props.posterImgUrl} />
+      <div className={style.title}>
+        <p className={style.titleText}>{props.title}</p>
+        <p className={style.subTitle}>{props.subTitle}</p>
+      </div>
     </Link>
   );
 }
