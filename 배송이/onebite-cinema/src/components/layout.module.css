@@ -1,0 +1,47 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.logo {
+  color: #e50914; /* 넷플릭스 레드 느낌 */
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.searchForm {
+  display: flex;
+}
+
+.searchInput {
+  padding: 10px 15px;
+  font-size: 1rem;
+  border: 1px solid #555;
+  background-color: #222;
+  color: #fff;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+}
+
+.searchButton {
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: #e50914;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 0 4px 4px 0;
+}
+
+.main {
+  width: 100%;
+}

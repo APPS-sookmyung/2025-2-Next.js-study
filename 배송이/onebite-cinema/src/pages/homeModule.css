@@ -1,0 +1,30 @@
+.section {
+  margin-bottom: 40px;
+}
+
+.sectionTitle {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.grid3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.grid5 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+}
+
+/* 모바일 반응형 (예시) */
+@media (max-width: 768px) {
+  .grid3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grid5 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
