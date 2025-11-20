@@ -1,0 +1,61 @@
+/*!******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/app/movie/[id]/page.module.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************/
+.page_container__4hQ8d {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.page_cover_img_container__Ruo53 {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position: relative;
+}
+
+.page_cover_img_container__Ruo53::before {
+  position: absolute;
+  top: 0px;
+  left: 0p;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  content: "";
+}
+
+.page_cover_img_container__Ruo53 > img {
+  z-index: 1;
+  max-height: 350px;
+  height: 100%;
+}
+
+.page_container__4hQ8d h2 {
+  margin: 0px;
+}
+
+.page_container__4hQ8d .page_info_container__q2CcN {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.page_container__4hQ8d .page_info_container__q2CcN > div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.page_container__4hQ8d .page_info_container__q2CcN .page_subTitle__Uzl6f {
+  font-weight: bold;
+}
+
+.page_container__4hQ8d .page_info_container__q2CcN .page_description__RJps7 {
+  line-height: 1.5;
+}
+
