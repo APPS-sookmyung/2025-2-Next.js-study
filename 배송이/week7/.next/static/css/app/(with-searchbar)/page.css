@@ -1,0 +1,33 @@
+/*!********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/components/movie-item.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************/
+.movie-item_container__R1o_D {
+}
+
+.movie-item_container__R1o_D > img {
+  width: 100%;
+}
+
+/*!************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/app/(with-searchbar)/page.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************/
+.page_container__xfmXa {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.page_reco_container__jrF_L {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+  gap: 5px;
+}
+
+.page_all_container__QILAZ {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 5px;
+  gap: 5px;
+}
+
