@@ -1,9 +1,31 @@
+import { notFound } from "next/navigation";
 import style from "./page.module.css";
 import movies from "@/mock/dummy.json";
 
-export default function Page() {
+export function generateStaticParams() {
+  return [{ id: "1" }, { id: "2" }, { id: "3" }];
+}
+
+export default async function Page({
+  params,
+}: {
+  params: Promise<{ id: string | string[] }>;
+}) {
+  const { id } = await params;
+  const response = await fetch(
+    `${process.env.NEXT_PUBLIC_API_SERVER_URL}/movie/${id}`
+  );
+
+  if (!response.ok) {
+    if (response.status === 404) {
+      notFound();
+    }
+    return <div>오류가 발생했습니다 ...</div>;
+  }
+
+  const movie = await response.json();
+
   const {
-    id,
     title,
     subTitle,
     company,
